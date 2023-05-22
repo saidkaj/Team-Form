@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    height: 100vh;
+
+}
+
+
+
+section{
+    border-top: 10px solid #2dcb71;
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* padding-bottom: 140px; */
+}
+
+
+section .container{
+    background-image: url('hand.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+
+section h1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 170px;
+}
+
+
+section p{
+    font: normal 24px 'sans serif';
+    color: #fff;
+    width: 600px;
+    margin: 30px 0;
+}
+
+
+/* section .social {
+    display: flex;
+} */
+
+section .social a{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.4;
+    margin-left: 20px;
+    position: relative;
+}
+
+section .social  i{
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section .social a:hover{
+    background-color: green;
+    opacity: 1;
+}
